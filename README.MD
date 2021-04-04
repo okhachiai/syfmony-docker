@@ -29,8 +29,11 @@ To manage your to your browser http://localhost:8888
     - Rename the **Dockerfile.php8.txt** to **Dockerfile**
     - Rebuild the project
 
+###### Mail catcher
+In order to use a mail catcher on the dev env (mailhog) uncomment the Mail catcher section on `_docker-compose.yml_` and rebuild the project
+
 ###### Elastic Stack
-In order to use Elastic Stack please uncomment all the Elastic Stack section on `_docker-compose.yml_` and rebuild the project
+In order to use Elastic Stack uncomment all the Elastic Stack section on `_docker-compose.yml_` and rebuild the project
 
 ###### Enjoy
 

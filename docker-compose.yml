@@ -37,6 +37,7 @@ services:
             - ./app:/var/www/application:cached
 
 # Dev tools
+    # Database viewer
     adminer:
         image: adminer
         environment:
@@ -45,6 +46,12 @@ services:
             ADMINER_DEFAULT_SERVER: db
         ports:
             - 8888:8080
+
+    # Mail catcher
+#    mail:
+#        image: mailhog/mailhog
+#        ports:
+#            - 1080:8025
 
 # Elastic start
 
