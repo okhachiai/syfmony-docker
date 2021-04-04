@@ -31,6 +31,7 @@ To manage your to your browser http://localhost:8888
 
 ###### Mail catcher
 In order to use a mail catcher on the dev env (mailhog) uncomment the Mail catcher section on `_docker-compose.yml_` and rebuild the project
+and visit this link http://localhost:1080
 
 ###### Elastic Stack
 In order to use Elastic Stack uncomment all the Elastic Stack section on `_docker-compose.yml_` and rebuild the project
