@@ -16,7 +16,10 @@ Symfony with no php, mysql and no nginx in your computer
 
 NB:
 --
-- If you want the php8 please go to the docker/php-fpm and rename the
-
+- You want the php8 go to the docker/php-fpm 
+    - Rename the **Dockerfile** to **Dockerfile.php7.txt**
+    - Rename the **Dockerfile.php8.txt** to **Dockerfile**
+    - Rebuild the project
+    
 **Enjoy**
 
